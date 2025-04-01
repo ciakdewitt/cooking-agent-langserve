@@ -1,0 +1,56 @@
+# Environment variables
+.env
+
+# Python virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+myserve/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Local development settings
+.idea/
+
+# AWS
+.aws-sam/
+samconfig.toml
+.aws-credentials
+
+# Streamlit
+.streamlit/
+
+# Other
+*.bak
+*.swp
+*~
