@@ -1,25 +1,20 @@
 # Core dependencies
-anthropic>=0.8.1  # Added for Claude API
-langchain-anthropic>=0.3.10
-langgraph>=0.1.10
-langchain>=0.1.0
-langchain-core>=0.1.10
+anthropic>=0.8.1
+langchain>=0.0.267
+langchain-anthropic>=0.0.5
+langchain-core>=0.0.27
 python-dotenv>=1.0.0
+langgraph>=0.0.10
+fastapi>=0.95.0
+uvicorn>=0.21.0
+pydantic>=1.10.7
+streamlit>=1.22.0
 
 # Memory storage
 langchain-community>=0.0.13
 
 # API and serving
-fastapi>=0.104.0
 langserve>=0.0.30
-uvicorn>=0.24.0
-pydantic>=2.4.2
-
-# UI
-streamlit>=1.28.0
-
-# Deployment
-aws-copilot-cli>=1.28.0
 
 # Testing
 pytest>=7.4.3

@@ -1,0 +1,22 @@
+# Environment definition for test environment
+name: test
+type: Environment
+
+# VPC configuration
+network:
+  vpc:
+    cidr: 10.0.0.0/16
+    subnets:
+      public:
+        - cidr: 10.0.0.0/24
+          az: eu-central-1a
+        - cidr: 10.0.1.0/24
+          az: eu-central-1b
+      private:
+        - cidr: 10.0.2.0/24
+          az: eu-central-1a
+        - cidr: 10.0.3.0/24
+          az: eu-central-1b
+
+secrets:
+  ANTHROPIC_API_KEY: /cooking-assistant/anthropic-api-key
